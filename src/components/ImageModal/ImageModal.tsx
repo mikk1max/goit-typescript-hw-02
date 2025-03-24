@@ -3,8 +3,6 @@ import { FaHeart } from "react-icons/fa";
 import s from "./ImageModal.module.css";
 import { ImageModalProps } from "./ImageModal.types";
 
-ReactModal.setAppElement("#root");
-
 const ImageModal = ({ isOpen, selectedImage, closeModal }: ImageModalProps) => {
   return (
     <ReactModal
